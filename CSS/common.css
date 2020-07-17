@@ -5,7 +5,7 @@ body{
     margin: 0;
     padding: 0;
 	background-color:#CCCD;
-
+    background-image: linear-gradient(#CCCD 0%, #CCCCCC 30%, #BBBBBB 50%, white 100%;)
 }
 
 a{
@@ -204,11 +204,12 @@ h2{
 }
 
 .profile-text {
+    width:52vw;
     text-align: left;
     font-family:"ヒラギノ明朝 Pro";
-    line-height:2.5vw;
+    line-height:2.8vw;
     position: relative;
-    left: 20vw;
+    left:24vw;
     font-size:1vw;
     margin-bottom: 6vw;
 }
@@ -290,6 +291,10 @@ h2{
     line-height:2vw;
     left: 5vw;
     font-family: "ヒラギノ明朝 Pro";
+}
+
+#text0,#text1,#text2,#text3,#text4{
+    display: none;
 }
 
 #text0{
