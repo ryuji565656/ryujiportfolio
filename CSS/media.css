@@ -51,6 +51,7 @@
     }
     
     .img-text p{
+        font-size:3vw;
         margin-top:12vw;
     }
 	
@@ -110,6 +111,7 @@
         margin-left: -2%;
         position: relative;
         top:20vw;
+        display: none;
 	}
     
     .img-box p{
@@ -117,6 +119,10 @@
         font-size:3vw;
         line-height: 4vw;
     }
+    
+    #text0,#text1,#text2,#text3,#text4{
+    display:block;
+}
 	
     .img-box img{
         width: 30vw;
@@ -133,7 +139,7 @@
         width: 29vw;
         height: 31vw;
         margin-top: 35vw;
-        margin-left: 14px;
+        margin-left:4vw;
     }
     
     #icon3 img{
