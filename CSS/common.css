@@ -97,7 +97,7 @@ header p{
 
 /*ここからrow2の内容*/
 .row2{
-    height:50vw;
+    height:60vw;
 }
 
 .row2-title{
@@ -106,6 +106,20 @@ header p{
     text-align: center;
     position: relative;
     top: 7vw;
+}
+
+.img-text{
+    width:96.9%;
+    height:10vw;
+    background-color:black;
+}
+
+.img-text p{
+    color:white;
+    font-size:1vw;
+    font-family: "ヒラギノ明朝 Pro";
+    padding-top:4vw;
+    text-align: center;
 }
 
 ul.slider {
@@ -266,9 +280,12 @@ h2{
     margin-left:5vw
 }
 
+
+
 .img-box p{
     position: relative;
-    width: 23vw;
+    text-align: left;
+    width: 22vw;
     font-size:1.23vw;
     line-height:2vw;
     left: 5vw;
@@ -278,7 +295,12 @@ h2{
 #text0{
     position: relative;
     top:2vw;
-    left:3vw
+    left:2vw
+}
+
+#text1{
+    position: relative;
+    left:4vw;
 }
 
 #text2{
