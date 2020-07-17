@@ -29,7 +29,7 @@
     }
     
 	.row2{
-		height: 100vw;
+		height: 120vw;
 	}
 	
 	.slider img{
@@ -43,6 +43,15 @@
         font-size: 6vw;
         position: relative;
         top:15vw;
+    }
+    
+    .img-text{
+        height:20vw;
+        width: 100vw;
+    }
+    
+    .img-text p{
+        margin-top:12vw;
     }
 	
 	.row3{
@@ -139,6 +148,7 @@
     }
     
     #text1{
+        margin-top:2vw;
         margin-left:8vw;
     }
     
