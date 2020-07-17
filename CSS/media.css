@@ -1,0 +1,204 @@
+@charset "UTF-8";
+/* CSS Document */
+@media(max-width:400px){
+	
+    .h3{
+        font-size:8vw;
+    }
+    
+    .row1{
+        height: 65vw
+    }
+    
+	header p{
+		font-size:3.5vw;
+	}
+	
+    .menu-list{
+        height: 15vw;
+    }
+    
+	.menu-list li a{
+		font-size:6vw;
+        position: relative;
+        top:3vw;
+	}
+	
+    .visual video{
+        height:40vw
+    }
+    
+	.row2{
+		height: 100vw;
+	}
+	
+	.slider img{
+		width:100%;
+		height:70vw;
+        position: relative;
+        top:13vw;
+	}
+    
+    .row2-title{
+        font-size: 6vw;
+        position: relative;
+        top:15vw;
+    }
+	
+	.row3{
+		height:130vw;
+	}
+    
+    .row3-title{
+        font-size:6vw;
+        position: relative;
+        top:13vw;
+    }
+    
+    .face-icon{
+        width:30vw;
+        height: 30.2vw
+    }
+    
+    span{
+        font-size:8vw
+    }
+	
+	.face-text p{
+		font-size:4vw;
+	}
+    
+    .profile-text{
+        font-size:2vw;
+        width: 90%;
+        line-height:5vw;
+        position: relative;
+        left: 7vw;
+    }
+    
+    .profile{
+        font-size:6vw;
+    }
+	
+    .row4{
+        height: 190vw;
+    }
+    
+    .row4-title{
+        position: relative;
+        font-family:cursive;
+        top: 20vw;
+        font-size:6vw;
+    }
+    
+    .img-contena{
+        height: 80vw;
+    }
+    
+	.img-box{
+		width: 44%;
+        margin-bottom: 10vw;
+        margin-left: -2%;
+        position: relative;
+        top:20vw;
+	}
+    
+    .img-box p{
+        width: 30vw;
+        font-size:3vw;
+        line-height: 4vw;
+    }
+	
+    .img-box img{
+        width: 30vw;
+        height: 30vw;
+    }
+    
+    #icon img{
+        width: 32vw;
+        height: 33vw;
+        margin-left: 10vw;
+    }
+    
+    #icon2 img{
+        width: 29vw;
+        height: 31vw;
+        margin-top: 35vw;
+        margin-left: 14px;
+    }
+    
+    #icon3 img{
+        width: 27vw;
+        height: 31.3vw;
+        margin-top:35vw;
+        margin-left:45%;
+    }
+    
+    #text0{
+        margin-left:4vw;
+    }
+    
+    #text1{
+        margin-left:8vw;
+    }
+    
+    #text4{
+        margin-left:9vw;
+        top:-6vw;
+    }
+    
+    #icon4 img{
+        width: 27vw;
+        height: 29vw;
+        margin-top: 60vw;
+        margin-left:87%;
+    }
+    
+    .video-containar video{
+        width: 103vw;
+        height: 65vw;
+        position: relative;
+        top:80vw;
+    }
+    
+    #formWrap{
+        position: relative;
+        top:20vw;
+    }
+    
+    .row5{
+        height:150vw;
+        position: relative;
+        top:10vw;
+    }
+    
+    .row5-title{
+        font-size: 6vw;
+    }
+    
+    input{
+        width: 40vw;
+        height: 7vw
+    }
+    
+    textarea{
+        width: 40vw;
+        height: 20vw;
+    }
+    
+    th{
+        font-size:5vw;
+    }
+    
+    #qestion{
+        margin-top:7vw;
+    }
+    
+    #sent{
+        width: 18vw;
+        height: 8vw;
+        font-size: 5vw;
+    }
+}
+
+ 
