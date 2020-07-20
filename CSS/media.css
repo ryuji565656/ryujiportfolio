@@ -24,8 +24,8 @@
         top:3vw;
 	}
 	
-    .visual video{
-        height:40vw
+    .visual h1{
+        font-size:10vw;
     }
     
 	.row2{
@@ -183,7 +183,7 @@
     }
     
     .row5{
-        height:150vw;
+        height:160vw;
         position: relative;
         top:10vw;
     }
@@ -214,6 +214,14 @@
         width: 18vw;
         height: 8vw;
         font-size: 5vw;
+    }
+    
+    .row6{
+        height:30vw;
+    }
+    
+    footer p{
+        font-size: 8vw;
     }
 }
 
