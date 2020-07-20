@@ -19,9 +19,10 @@
  ]
  　});
 
-$('.header-text').hide().fadeIn(1500);
-$('.face-text').hide().fadeIn(1500);
-$('.profile-text').hide().fadeIn(1500);
+$('h1').hide().fadeIn(1000);
+$('.header-text').hide().fadeIn(1000);
+$('.face-text').hide().fadeIn(1000);
+$('.profile-text').hide().fadeIn(1000);
 
 
 $(window).on('load resize', function(){
@@ -35,6 +36,11 @@ $(window).on('load resize', function(){
   $('#icon0,#icon,#icon2,#icon3,#icon4').fadeIn(1000);
     });
    });
+      
+  $('#icon0,#icon,#icon2,#icon3,#icon4').fadeIn(1000);
+      
+      
+      
   } else {
     //768pxより大きい時の処理
     $(function() {
