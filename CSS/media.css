@@ -79,7 +79,7 @@
 	}
     
     .profile-text{
-        font-size:1.5vw;
+        font-size:2vw;
         width: 90%;
         line-height:5vw;
         position: relative;
@@ -90,19 +90,22 @@
         font-size:6vw;
     }
 	
+    .other{
+        font-size: 6vw;
+    }
+    
 	.other-text{
-		font-size:1.5vw;
+		font-size:2vw;
 	}
 	
     .row4{
-        height: 160vw;
+        height: 180vw;
     }
     
     .row4-title{
         position: relative;
         font-family:cursive;
         top: 20vw;
-        font-size:6vw;
     }
     
     .img-contena{
