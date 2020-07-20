@@ -4,8 +4,7 @@
 body{
     margin: 0;
     padding: 0;
-	background-color:#CCCD;
-    background-image: linear-gradient(#CCCD 0%, #CCCCCC 30%, #BBBBBB 50%, white 100%;)
+    background-color:#CCCD;
 }
 
 a{
@@ -43,9 +42,9 @@ header{
     text-align: center;
 }
 
-.visual video{
-    width:100vw;
-    height:25vw
+.visual h1{
+    font-size: 5vw;
+    font-family: cursive;
 }
 
 
@@ -211,7 +210,7 @@ h2{
     position: relative;
     left:24vw;
     font-size:1vw;
-    margin-bottom: 6vw;
+    
 }
 
 
@@ -227,13 +226,22 @@ h2{
 
 .text p{
    font-family: cursive;
-   margin-bottom: -1vw;
 }
 
 h2{
     font-size: 2vw;
     margin-top:7vw;
 }
+
+.profile-box{
+    width:50vw;
+    text-align: left;
+    position: relative;
+    margin-left:25%;
+    font-family:"ヒラギノ明朝 Pro";
+     font-size: 1.5vw;
+}
+
 
 
 /*ここからrow4の内容*/
@@ -357,8 +365,8 @@ h2{
 
 
 /*ここからrow6の内容*/
-.row6{
-    height: 40vw;
+.row5{
+    height: 50vw;
     width: 100%;
 }
 
@@ -434,5 +442,24 @@ tr{
     margin-top: 5vw;
     font-family: cursive;
     background-color: darkgray;
+}
+
+
+/*ここからrow6の内容*/
+
+.row6{
+    height:15vw;
+    background-color: black;
+}
+
+footer p{
+    color: white;
+    font-family: cursive;
+    font-size:4vw;
+}
+
+#footertext{
+    font-size:1vw;
+    margin-top:-2vw;
 }
 
