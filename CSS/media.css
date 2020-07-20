@@ -227,12 +227,18 @@
     }
     
     .row6{
-        height:30vw;
+        height:35vw;
     }
     
     footer p{
         font-size: 8vw;
         text-align: center;
+        position: relative;
+        top: 4vw;
+    }
+    
+    #footertext{
+        font-size: 4vw;
     }
 }
 
