@@ -7,7 +7,7 @@
     }
     
     .row1{
-        height: 65vw
+        height: 65vw;
     }
     
 	header p{
@@ -54,6 +54,21 @@
         font-size:3vw;
         margin-top:12vw;
     }
+    
+    .slick-prev{
+        position: relative;
+        top: 55vw;
+        left:5vw;
+        font-size:10vw;
+    }
+    
+    .slick-next{
+        position: relative;
+        top:-53vw;
+        left:90vw;
+        font-size:10vw;
+    }
+    
 	
 	.row3{
 		height:180vw;
@@ -79,7 +94,7 @@
 	}
     
     .profile-text{
-        font-size:2vw;
+        font-size:2.3vw;
         width: 90%;
         line-height:5vw;
         position: relative;
@@ -95,7 +110,7 @@
     }
     
 	.other-text{
-		font-size:2vw;
+		font-size:2.3vw;
         width: 70vw;
         position: relative;
         right: 10vw;
