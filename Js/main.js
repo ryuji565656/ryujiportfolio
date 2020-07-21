@@ -12,7 +12,7 @@
     breakpoint:400, //767px以下のサイズに適用
     settings: {
       slidesToShow:1,
-	  arrows:false,
+	  arrows:true,
 	　centerMode:false,
     }
    }
