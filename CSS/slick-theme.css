@@ -23,7 +23,7 @@
     line-height: 0;
 
     position: absolute;
-    top: 50%;
+    top:45%;
 
     display: block;
 
@@ -78,7 +78,8 @@
 
 .slick-prev
 {
-    left:20%;
+    left:22%;
+    
 }
 [dir='rtl'] .slick-prev
 {
@@ -88,16 +89,18 @@
 .slick-prev:before,
 .slick-next:before
 {
-    content: '◀︎';
+    content:'<';
+    font-size: 7vw;
+    opacity: 0.5;
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '';
+    content:;
 }
 
 .slick-next
 {
-    right:24%;
+    right:25%;
    
 }
 [dir='rtl'] .slick-next
@@ -107,7 +110,9 @@
 }
 .slick-next:before
 {
-    content: '▶︎';
+    content: '>';
+    font-size:7vw;
+    opacity: 0.5;
 }
 [dir='rtl'] .slick-next:before
 {
