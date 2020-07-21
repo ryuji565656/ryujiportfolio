@@ -44,7 +44,7 @@ header{
 
 .visual h1{
     font-size: 5vw;
-    font-family: cursive;
+    font-family:"ヒラギノ明朝 Pro";
 }
 
 
@@ -97,6 +97,7 @@ header p{
 /*ここからrow2の内容*/
 .row2{
     height:60vw;
+    margin-top:-20vw;
 }
 
 .row2-title{
@@ -108,7 +109,7 @@ header p{
 }
 
 .img-text{
-    width:96.9%;
+    width:50vw;
     height:10vw;
     background-color:black;
 }
