@@ -1,7 +1,7 @@
   $('.slider').slick({
     autoplay: true,
-    autoplaySpeed: 4000,
-    arrows: true,
+    autoplaySpeed:3000,
+    arrows:false,
     slidesToShow:1,
     centerMode: true,
     centerPadding: '24%',
