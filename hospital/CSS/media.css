@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+@media (max-width: 375px){
+	.main-header{
+		width: 100vw;
+		height:75px;
+	}
+	
+	.pc{
+		width: 48vw;
+		height:90px;
+		float:left;
+		margin-left:10px;
+		margin-right: 38px;
+	}
+	
+	.menu-list{
+		height:10vw;
+	}
+	
+	.menu-list li{
+		display: none;
+	}
+	
+	
+	.mobile{
+		width:10vw;
+		display:block;
+		float: left;
+		margin-top:9vw;
+		margin-left:5vw;
+	}
+	
+	
+	.row2{
+		display: none;
+	}
+	
+	.row3{
+		width:100%;
+		height:150vw;
+	}
+	
+	.nav-container{
+		width: 100vw;
+		height: 100vw;
+		flex-wrap: wrap;
+	}
+	
+	.navgation{
+		width:48vw;
+		height:51vw;
+		margin-bottom: 10px;
+		margin-right:1vw;
+	}
+	
+	.navgation img{
+		width:23vw;
+		margin-top:30px;
+	}
+
+	
+	.navbox p{
+		font-size:4vw;
+	}
+	
+	
+	
+	.nav1 img{
+		margin-left:-8px;
+	}
+	
+	.nav5 {
+		width:100vw;
+		margin-top:1vw
+	}
+	
+	
+	
+	/*ここからrow4の内容*/
+	.row4{
+		margin-top: 50px;
+		height: 220vw;
+	}
+	
+	
+	.infomation{
+		display: block;
+		margin-top:200px;
+		width: 95vw;
+		margin: 0 auto;
+		height:100vw;
+		position: relative;
+		top:60px;
+		left:-5px
+	}
+	
+	strong{
+		margin-left:22vw;
+		font-size:6vw;
+	}
+	
+	.info{
+		width:100vw;
+		margin: 0 auto;
+		margin-top: -30
+	}
+	
+	
+	.info a{
+		margin-bottom:10vw;
+	}
+	
+	
+	.infomation-title a{
+		display: none;
+	}
+	
+	.infomation-tab{
+		display: none;
+	}
+	
+
+	
+	span {
+		font-size:18px;
+	}
+	
+	.span1,.span2,.span3,.span4,.span5,.span6{
+		padding: 0px;
+	}
+	
+	dt{
+	    padding-bottom:8vw;
+	}
+	
+	.info a{
+		display:block;
+		margin-bottom:-10px;
+		text-decoration:underline;
+	}
+	
+	.img-tab{
+		width: 95vw;
+		height:145vw;
+		margin: 0 auto;
+		margin-top:30vw;
+	}
+	
+	.img-tab img{
+		width:42vw;
+		height:35vw;
+	}
+	
+	.img-tab p{
+		width: 42vw;
+		height:7vw
+	}
+	
+	.nav-tab p{
+		font-size:4vw;
+	}
+	
+	
+	.row5{
+		height:130vw;
+	}
+	
+	table{
+		width:95vw;
+		height:40vw;
+		margin-top: 10vw;
+	}
+	
+	table{
+		font-size:5vw;
+	}
+	
+	.text2{
+		font-size:2vw;
+		margin-left:2vw;
+		width:100vw;
+	}
+	
+	footer{
+		height:100px;
+		width:100vw;
+	}
+	
+	footer img{
+		height:25vw;
+		width: 50vw;
+	}
+	
+}
