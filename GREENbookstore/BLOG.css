@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+.home-btn a{
+	display:block;
+	text-align: right;
+	margin-right: 100px;
+}
+
+
+.BLOG-wrapper{
+	width: 100%;
+}
+
+.s1 {
+	color: #444;
+	font-size: 24px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 150px;
+}
+.s1:before, .s2:after {
+	content: "";
+	flex-grow: 1;
+	height: 1px;
+	background: #444;
+	display: block;
+}
+.s1:before {
+	margin-right: .4em;
+}
+.s1:after {
+	margin-left: .4em;
+}
+
+
+.BLOG-area{
+	width: 960px;
+	margin: 0 auto;
+	margin-top:130px;
+	
+}
+
+.BLOG{
+	width: 960px;
+	height:300px;
+}
+
+.BLOG img{
+	float:left;
+}
+
+.BLOG p{
+	display: inline-block;
+	margin-left:30px;
+}
+
+.
