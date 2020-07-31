@@ -1,0 +1,174 @@
+@charset "UTF-8";
+/* CSS Document */
+li{
+	list-style:none;
+}
+
+a{
+	text-decoration:none;
+	color:black;
+}
+
+body{
+	padding:0;
+	margin:0;
+}
+
+
+/*ここからmain-headerの内容*/
+
+.wrapper{
+	width:100%;
+	padding:0;
+	margin:0;
+}
+
+.row1{
+	height:500px;
+	width:100%;
+	margin-bottom:30px;
+	background-image:url("img/WATER-web.jpg");
+	background-repeat: no-repeat;
+}
+
+.main-header{
+	width:100%;
+	height:75px;
+	background-color:cornflowerblue;
+	margin-top:-170px;
+}
+
+.main-header p{
+	font-size:10px;
+	color:white;
+	text-align: center;
+	font-family:YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
+	margin-top:0px;
+}
+
+.menu-list{
+	float:right;
+}
+
+.menu-list a{
+	color:white;
+	font-family:YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
+	display:block;
+	margin-top:-10px;
+}
+
+.menu-list li{
+	float:left;
+	font-size:30px;
+	margin-right:100px;
+}
+
+.deco{
+	width:100%;
+	height:30px;
+	background-color:black;
+	position: absolute;
+}
+
+.creat{
+	color:white;
+	display:inline;
+	margin-right:30px;
+	text-align:right;
+}
+/*main-hederの内容終了*/
+
+
+/*ここからslideの内容*/
+.row2{
+	height:500px;
+	margin-top:120px;
+	margin-bottom:50px;
+	text-align: center;
+}
+
+.pickup{
+	display:inline;
+	border-bottom:3px solid;
+	padding:10px;
+	
+}
+
+.slide{
+
+	margin-top:-20px;
+	margin-left:-20px;
+}
+
+.change-btn-wrapper{
+	height:380px;
+	width:40%;
+	margin:0 auto;
+	margin-top:50px;
+	position:relative;
+}
+
+.active{
+	display:block;
+}
+
+
+
+.prev-btn {
+	float:left;
+	position:absolute;
+	top:200px;
+	left:-35px;
+}
+
+
+.next-btn{
+    float: right;
+    position: absolute;
+    top: 200px;
+	right:-60px;
+	
+    
+    
+	
+}
+/*slideの内容終わり*/
+
+
+/*ここからaboutの内容*/
+.row3{
+	height:550px;
+	background-color:lightskyblue;
+	position: relative;
+	background-image:url("img/背景１.jpg");
+	
+}
+
+.about-box{
+	width:60%;
+	height:450px;
+	margin: auto;
+	background-color:white;
+	position: absolute;
+	top:50px;
+	left:20%;
+	
+}
+/*aboutのないよう終わり*/
+
+/*サービスの内容が入ります。*/
+.row4{
+	height:400px;
+}
+/*サービスの内容終わり*/
+
+/*footerの内容が入ります。*/
+.row5{
+	height:100px;
+}
+
+footer{
+	width:100%;
+	height: 100px;
+}
+/*footerの内容終わり8/

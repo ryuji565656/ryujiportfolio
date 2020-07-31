@@ -1,0 +1,399 @@
+@charset "UTF-8";
+/* CSS Document */
+li{
+	list-style:none;
+}
+
+a{
+	text-decoration:none;
+	color:black;
+}
+
+body{
+	padding:0;
+	margin:0;
+}
+
+img{
+	width:100%;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/*ここからmain-headerの内容*/
+
+.wrapper{
+	width:100%;
+	padding:0;
+	margin:0;
+}
+
+.row1{
+	height:500px;
+	width:100%;
+	max-width:100%;
+	margin-bottom:30px;
+	background-image:url("../img/水.jpg");
+	background-size:100% 90%;
+	background-repeat: no-repeat;
+	display: none;
+}
+
+.main-header{
+	width:100%;
+	height:75px;
+	background-color:cornflowerblue;
+	margin-top:-100px;
+}
+
+.main-header p{
+	font-size:10px;
+	color:white;
+	text-align: center;
+	font-family:YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
+	margin-top:0px;
+    
+}
+
+.menu-list{
+	float:right;
+    height: 50px;
+	display: none;
+   
+}
+
+.menu-list a{
+	color:white;
+	font-family:YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
+	display:block;
+	margin-top:-10px;
+}
+
+.menu-list li{
+	float:left;
+	font-size:30px;
+	margin-right:100px;
+}
+
+.menu-icon{
+	display: none;
+}
+
+.acodion{
+	display: none;
+}
+
+.deco{
+	width:100%;
+	height:30px;
+	background-color:black;
+	position: absolute;
+}
+
+.creat{
+	color:white;
+	display:inline;
+	margin-right:30px;
+	text-align:right;
+}
+/*main-hederの内容終了*/
+
+
+/*ここからslideの内容*/
+.row2{
+	height:500px;
+	margin-top:100px;
+	margin-bottom:100px;
+	text-align: center;
+}
+
+.pickup{
+	display:inline;
+	border-bottom:3px solid;
+	padding:10px;
+	
+}
+
+.change-btn-wrapper{
+	height:380px;
+	width:100%;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top:50px;
+	max-width:650px;
+}
+
+
+
+.slide img{
+	width:100%;
+}
+
+
+
+
+/*slideの内容終わり*/
+
+
+/*ここからaboutの内容*/
+.row3{
+	height:1000px;
+	background-color:lightskyblue;
+	background-image:url("../img/row3.背景.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+    position: relative;
+   
+}
+
+.about-box{
+    max-width:1000px;
+    height: 900px;
+    margin: auto;
+    background-color: white;
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    
+    
+}
+
+.tabs-nav{
+	display:flex;
+	height: 50px;
+	margin-bottom:30px;
+}
+
+.tabs-nav li {
+    display:block;
+	width: 50%;
+	margin-right:10px;
+	text-align: center;
+}
+
+.tabs-nav li a{
+    font-size:25px;
+	margin-top:18px;
+	border-radius:20px;
+}
+
+.tabs-nav  a.active{
+	background-color: aqua;
+	
+}
+
+#ready1{
+	display: inline-block;
+	width:100%;
+	height:80px;
+	padding-top:25px;
+	margin-left:-20px;
+}
+
+#ready2{
+	display: inline-block;
+	width:90%;
+	height:80px;
+	padding-top:25px;
+}
+
+
+
+.tabs-panel{
+    display: flex;
+	flex-wrap: wrap;
+}
+
+
+.tabpanels li{
+	width:29.5%;
+	margin-top:35px;
+	margin-right:35px;
+	margin-bottom:50px;
+}
+
+#work01{
+	margin-top:70px;
+}
+
+#work02{
+	margin-top:15px;
+}
+
+.arrow{
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.arrow::before{
+  content: '';
+  width: 10px;
+  height: 10px;
+  border: 0px;
+  border-top: solid 2px #5bc0de;
+  border-right: solid 2px #5bc0de;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -6px;
+}
+/*aboutのないよう終わり*/
+
+/*サービスの内容が入ります。*/
+.row4{
+	height:600px;
+    width:100%;
+    background-color:white;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+
+
+.text-contents{
+	width: 100%;
+	max-width:1500px;
+	margin:0 auto;
+	display:flex;
+}
+
+.text-area{
+    width: 30%;
+    height:400px;
+	background-color:white;
+	margin-left:2.5%;
+	margin-top:50px;
+    text-align: center;
+}
+
+.text-area p{
+	margin-top:30px;
+	font-size:14px;
+	max-width: 100%;
+}
+
+.text-contents img{
+	height:300px;
+	border-radius:50%;
+	width:90%;
+	height:90%;
+	border:10px solid aqua;
+}
+/*サービスの内容終わり*/
+
+
+/*row5の内容が入ります*/
+.row5{
+	width: 100%;
+}
+
+.form-wrapper{
+	width:100%;
+}
+
+.form-area{
+	width:100%;
+	height:1000px;
+	margin:0 auto;
+	margin-top:200px;
+	margin-bottom:100px;
+}
+
+
+
+.contact_form {
+    width: 80%;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.s1{
+	font-size:50px;
+	text-align:center;
+}
+ 
+
+
+.contact_form h2 {
+    margin-bottom:40px;
+	text-align: center;
+}
+ 
+.textbox1 {
+    width: 200px;
+	border-radius:30px;
+	display: block;
+	margin:0 auto;
+}
+ 
+.textbox2 {
+    width: 300px;
+	border-radius: 30px;
+	display: block;
+	margin:0 auto;
+}
+ 
+.textbox3 {
+    width: 70px;
+	border-radius:30px;
+}
+
+.content{
+	text-align: center;
+}
+ 
+ 
+.textarea1 {
+    width: 500px;
+    height: 150px;
+	border-radius: 10px;
+	display: block;
+	margin:0 auto;
+}
+
+.sent{
+	margin-top:60px;
+	padding:20px 60px;
+	font-size:20px;
+	background-color:aqua;
+	border-radius:230px;
+	border:none;
+	color:gray;
+	box-shadow:0px 4px gray;
+	cursor: pointer;
+}
+
+.sent:active{
+	position: relative;
+	top:7px;
+	box-shadow:none;
+}
+
+.sent:hover{
+	background-color:deepskyblue;
+}
+
+/*footerの内容が入ります。*/
+.row6{
+	height:200px;
+}
+
+footer{
+	width:100%;
+	height:200px;
+	background-color:lightskyblue;
+}
+
+footer h2{
+    text-align: center;
+    font-size:40px;
+    margin-top:60px;
+}
+/*footerの内容終わり8/
