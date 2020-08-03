@@ -4,7 +4,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color:#CCCD;
+    background-image: url(/img/background.jpg);
 }
 
 a{
@@ -44,7 +44,7 @@ header{
 
 .visual h1{
     font-size: 5vw;
-    font-family:"ヒラギノ明朝 Pro";
+    font-family:cursive;
 }
 
 
@@ -144,7 +144,8 @@ ul.slider {
 .slick-prev,
 .slick-next{
     z-index: 999;
-    right:0%;  
+    right:0%; 
+    cursor: pointer;
 }
 
 .slick-center img{
