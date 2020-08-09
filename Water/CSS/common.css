@@ -24,6 +24,10 @@ img{
 
 /*ここからmain-headerの内容*/
 
+.wrapper0{
+    overflow: hidden;
+}
+
 .wrapper{
 	width:100%;
 	padding:0;
