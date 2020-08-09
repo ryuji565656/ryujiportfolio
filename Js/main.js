@@ -19,6 +19,33 @@
  ]
  　});
 
+$(function(){
+
+  $(window).scroll(function (){
+
+    $("#sample #sample2").each(function(){
+
+      var imgPos = $(this).offset().top;
+
+      var scroll = $(window).scrollTop();
+
+      var windowHeight = $(window).height();
+
+      if (scroll > imgPos - windowHeight + windowHeight/5){
+
+        $(this).addClass("fade_on");
+
+      } else {
+
+        $(this).removeClass("fade_on");
+
+      }
+
+    });
+  });
+});
+
+
 $('h1').hide().fadeIn(1000);
 $('.header-text').hide().fadeIn(1000);
 $('.face-text').hide().fadeIn(1000);
