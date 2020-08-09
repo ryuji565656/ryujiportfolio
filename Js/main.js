@@ -23,7 +23,7 @@ $(function(){
 
   $(window).scroll(function (){
 
-    $("#sample #sample2").each(function(){
+    $("#sample").each(function(){
 
       var imgPos = $(this).offset().top;
 
