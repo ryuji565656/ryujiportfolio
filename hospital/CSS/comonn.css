@@ -33,6 +33,10 @@ a{
 	width:100%;
 }
 
+.wrapper0{
+    overflow: hidden;
+}
+
 /*ここからヘッダーの内容*/
 .row1{
 	background-color:white;
