@@ -4,7 +4,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color:#CCCCCC;
+    background-color:;
 }
 
 a{
@@ -440,12 +440,14 @@ input{
     display: block;
     height:3vw;
     width:20vw;
+    border:1px solid #CCCCCC;
 }
     
 textarea{
     border: none;
     width: 20vw;
     height:10vw;
+    border:1px solid #CCCCCC;
 }
     
 h3{
