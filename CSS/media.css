@@ -55,6 +55,11 @@
         margin-top:12vw;
     }
     
+    .img-text a{
+        font-size:3.5vw;
+        text-align: center;
+    }
+    
     .slick-prev{
         position: relative;
         top: 55vw;
