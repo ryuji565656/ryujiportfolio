@@ -146,15 +146,22 @@ header p{
     text-align: center;
 }
 
+.img-text a{
+    display: block;
+    font-size:1.5vw;
+    margin-top:2vw;
+}
+
 ul.slider {
     padding: 0;
 }
 
 .slider img{
     width:50vw;
-    height:40vw;
+    height:38vw;
     position: relative;
     top:4vw;
+    border:1px solid #CCCCCC; 
 }
 
 
@@ -174,7 +181,7 @@ ul.slider {
 
 .slick-center img{
     width:50vw;
-    height:40vw;
+    height:38vw;
 }
 
 
