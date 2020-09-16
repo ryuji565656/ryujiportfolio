@@ -282,16 +282,12 @@ h2{
 
 
 
+
+
 /*ここからrow4の内容*/
-
-
-
-
-
-/*ここからrow5の内容*/
 .row4{
     width: 100vw;
-    height: 80vw;
+    height: 150vw;
 }
 
 .row4-title{
@@ -399,6 +395,22 @@ h2{
     width: 101vw;
     height: 30vw;
     margin-top: -10vw;
+}
+
+.skils{
+    width: 100%;
+    display: block;
+    position: relative;
+    top:5vw;
+    background-color: darkgray;
+}
+
+.skils img{
+    height:50vw;
+    width: 50vw;
+    display: block;
+    margin: 0 auto;
+    margin-top:10vw;
 }
 
 
