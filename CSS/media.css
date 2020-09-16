@@ -121,8 +121,10 @@
         right: 10vw;
 	}
 	
+    
+    /*ここからrow4の内容*/
     .row4{
-        height:180vw;
+        height:250vw;
     }
     
     .row4-title{
@@ -213,10 +215,25 @@
         top:20vw;
     }
     
+    .skils{
+        position: relative;
+        height: 70vw;
+        top:100vw;
+        background-color: darkgray;
+    }
+    
+    .skils img{
+        height: 70vw;
+        width:70vw;
+    }
+    
+    
+    
+     /*ここからrow5の内容*/
     .row5{
         height:160vw;
         position: relative;
-        top:10vw;
+        top:13vw;
     }
     
     .row5-title{
