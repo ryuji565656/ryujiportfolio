@@ -53,8 +53,8 @@ h2{
 }
 
 
-/*ここからrow1の内容*/
 
+/*ここからrow1の内容*/
 .row1{
     height:50vw;
 }
@@ -71,14 +71,11 @@ header{
     font-family:cursive;
 }
 
-
-
 header p{
     font-family: cursive;
     margin-bottom: 8vw;
     font-size:1.2vw;
 }
-
 
 .menu-list{
     display: flex;
@@ -116,6 +113,7 @@ header p{
 .menu-list a:hover{
     color:#CCCCCC;
 }
+/*row1の内容終わり*/
 
 
 /*ここからrow2の内容*/
@@ -163,9 +161,6 @@ ul.slider {
     top:4vw;
     border:1px solid #CCCCCC; 
 }
-
-
-
 
 .slick-prev:before,
 .slick-next:before{
@@ -279,7 +274,7 @@ h2{
     font-family:"ヒラギノ明朝 Pro";
     font-size: 1.5vw;
 }
-
+/*row3の内容終わり*/
 
 
 
@@ -322,8 +317,6 @@ h2{
     height: 15vw;
     margin-left:5vw
 }
-
-
 
 .img-box p{
     position: relative;
@@ -412,6 +405,7 @@ h2{
     margin: 0 auto;
     margin-top:10vw;
 }
+/*row4の内容終わり*/
 
 
 /*ここからrow5の内容*/
@@ -450,9 +444,7 @@ table.formTable th{
 .formTable{
     margin: 0 auto;
 }
-    
-  
-    
+      
 input{
     border: none; 
     margin-top:-1vw;
@@ -501,6 +493,7 @@ tr{
     font-family: cursive;
     background-color: darkgray;
 }
+/*row5の内容終わり*/
 
 
 /*ここからrow6の内容*/
