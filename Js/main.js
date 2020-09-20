@@ -22,34 +22,39 @@
 $(function(){
 
   $(window).scroll(function (){
-
     $("#sample").each(function(){
-
       var imgPos = $(this).offset().top;
-
       var scroll = $(window).scrollTop();
-
       var windowHeight = $(window).height();
-
       if (scroll > imgPos - windowHeight + windowHeight/5){
-
-        $(this).addClass("fade_on");
-
+      $(this).addClass("fade_on");
       } else {
-
         $(this).removeClass("fade_on");
-
       }
-
     });
   });
 });
 
 
-$('h1').hide().fadeIn(1000);
-$('.header-text').hide().fadeIn(1000);
-$('.face-text').hide().fadeIn(1000);
-$('.profile-text').hide().fadeIn(1000);
+$(function(){
+  $(".ef").css({opacity:"0"});
+  $(window).scroll(function (){
+    $(".ef").each(function(){
+      var ePos = $(this).offset().top;
+      var scroll = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      if (scroll > ePos - windowHeight + windowHeight/5){
+        $(this).animate({ opacity: 1 }, { duration: 600, easing: 'swing'})
+      }
+    });
+  });
+});
+
+
+
+$('h1').hide().fadeIn(1300);
+$('.header-text').hide().fadeIn(1300);
+
 
 
 $(window).on('load resize', function(){
