@@ -76,13 +76,14 @@
     
 	
 	.row3{
-		height:180vw;
+		height:230vw;
 	}
     
     .row3-title{
         font-size:6vw;
         position: relative;
         top:13vw;
+        margin-top: 35vw
     }
     
     .face-icon{
@@ -99,7 +100,7 @@
 	}
     
     .profile-text{
-        font-size:3vw;
+        font-size:2.8vw;
         width: 90%;
         line-height:5vw;
         position: relative;
@@ -108,14 +109,17 @@
     
     .profile{
         font-size:6vw;
+        margin-top:20vw;
+        
     }
 	
     .other{
         font-size:6vw;
+        margin-top:20vw;
     }
     
 	.other-text{
-		font-size:3vw;
+		font-size:2.8vw;
         width: 70vw;
         position: relative;
         right: 10vw;
@@ -124,7 +128,7 @@
     
     /*ここからrow4の内容*/
     .row4{
-        height:250vw;
+        height:260vw;
     }
     
     .row4-title{
@@ -217,8 +221,8 @@
     
     .skills{
         position: relative;
-        height:85vw;
-        top:175vw;
+        height:90vw;
+        top:185vw;
         background-color: darkgray;
     }
     
@@ -237,9 +241,9 @@
     
      /*ここからrow5の内容*/
     .row5{
-        height:160vw;
+        height:200vw;
         position: relative;
-        top:25vw;
+        top:50vw;
     }
     
     .row5-title{
