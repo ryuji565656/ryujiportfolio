@@ -135,7 +135,7 @@
     }
     
     .img-contena{
-        height: 80vw;
+        height: 1vw;
     }
     
 	.img-box{
@@ -215,16 +215,22 @@
         top:20vw;
     }
     
-    .skils{
+    .skills{
         position: relative;
-        height: 70vw;
-        top:100vw;
+        height:82vw;
+        top:175vw;
         background-color: darkgray;
     }
     
-    .skils img{
+    .skills img{
         height: 70vw;
-        width:70vw;
+        width:73vw;
+        position: relative;
+        bottom:5vw;
+    }
+    
+    .skills h2{
+        font-size: 7vw;
     }
     
     
@@ -233,7 +239,7 @@
     .row5{
         height:160vw;
         position: relative;
-        top:13vw;
+        top:25vw;
     }
     
     .row5-title{
